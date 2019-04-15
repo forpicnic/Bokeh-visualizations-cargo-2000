@@ -1,0 +1,87 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Top 10 risky orders in 1 week</title>
+      
+      
+        
+          
+        <link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-1.0.4.min.css" type="text/css" />
+        <link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-widgets-1.0.4.min.css" type="text/css" />
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-1.0.4.min.js"></script>
+        <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-widgets-1.0.4.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="17d577f8-b4af-492a-89d2-40f3dab4bfb8" data-root-id="1345"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="1418">
+          {"1414b248-0dca-43d4-b77f-7f7949d952f2":{"roots":{"references":[{"attributes":{"children":[{"id":"1337","type":"Select"}],"width":100},"id":"1340","type":"WidgetBox"},{"attributes":{},"id":"1354","type":"Selection"},{"attributes":{"children":[{"id":"1335","type":"PreText"}],"width":35},"id":"1339","type":"WidgetBox"},{"attributes":{},"id":"1308","type":"BasicTicker"},{"attributes":{"grid_line_color":{"value":null},"plot":{"id":"1294","subtype":"Figure","type":"Plot"},"ticker":{"id":"1304","type":"CategoricalTicker"}},"id":"1306","type":"Grid"},{"attributes":{"callback":null,"options":["1 Week","2 Weeks","3 Weeks","4 Weeks","Custom Range"],"value":"1 week","width":100},"id":"1338","type":"Select"},{"attributes":{"callback":null,"options":["10","20","50","100"],"value":"10","width":100},"id":"1337","type":"Select"},{"attributes":{"axis_label":"Risk","formatter":{"id":"1351","type":"BasicTickFormatter"},"plot":{"id":"1294","subtype":"Figure","type":"Plot"},"ticker":{"id":"1308","type":"BasicTicker"}},"id":"1307","type":"LinearAxis"},{"attributes":{"children":[{"id":"1339","type":"WidgetBox"},{"id":"1340","type":"WidgetBox"},{"id":"1341","type":"WidgetBox"},{"id":"1342","type":"WidgetBox"}]},"id":"1343","type":"Row"},{"attributes":{"callback":null,"factors":["897","5729","13867","1184","7020","645","8539","1078","936","147"]},"id":"1295","type":"FactorRange"},{"attributes":{"callback":null,"end":10},"id":"1297","type":"Range1d"},{"attributes":{"data_source":{"id":"1293","type":"ColumnDataSource"},"glyph":{"id":"1328","type":"VBar"},"hover_glyph":{"id":"1330","type":"VBar"},"muted_glyph":null,"nonselection_glyph":{"id":"1329","type":"VBar"},"selection_glyph":null,"view":{"id":"1332","type":"CDSView"}},"id":"1331","type":"GlyphRenderer"},{"attributes":{"callback":null,"mode":"vline","tooltips":[["Order number","#@i1_legid"],["From to","@from_to"],["Planned deliver date","@planned_date"],["Risk","@risk_all"],["Value","$@value"]]},"id":"1333","type":"HoverTool"},{"attributes":{},"id":"1317","type":"HelpTool"},{"attributes":{"text":"\nTop ","width":35},"id":"1335","type":"PreText"},{"attributes":{},"id":"1301","type":"LinearScale"},{"attributes":{"bottom_units":"screen","fill_alpha":{"value":0.5},"fill_color":{"value":"lightgrey"},"left_units":"screen","level":"overlay","line_alpha":{"value":1.0},"line_color":{"value":"black"},"line_dash":[4,4],"line_width":{"value":2},"plot":null,"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"1320","type":"BoxAnnotation"},{"attributes":{"axis_label":"Order Number","formatter":{"id":"1349","type":"CategoricalTickFormatter"},"plot":{"id":"1294","subtype":"Figure","type":"Plot"},"ticker":{"id":"1304","type":"CategoricalTicker"}},"id":"1303","type":"CategoricalAxis"},{"attributes":{"children":[{"id":"1336","type":"PreText"}],"width":140},"id":"1341","type":"WidgetBox"},{"attributes":{},"id":"1304","type":"CategoricalTicker"},{"attributes":{"fill_color":{"value":"#D0E1F5"},"line_color":{"value":"#D0E1F5"},"top":{"field":"risk_all"},"width":{"value":0.75},"x":{"field":"i1_legid"}},"id":"1328","type":"VBar"},{"attributes":{"children":[{"id":"1294","subtype":"Figure","type":"Plot"}]},"id":"1344","type":"Row"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"field":"risk_all"},"width":{"value":0.75},"x":{"field":"i1_legid"}},"id":"1329","type":"VBar"},{"attributes":{"source":{"id":"1293","type":"ColumnDataSource"}},"id":"1332","type":"CDSView"},{"attributes":{"below":[{"id":"1303","type":"CategoricalAxis"}],"left":[{"id":"1307","type":"LinearAxis"}],"outline_line_color":{"value":null},"plot_height":400,"plot_width":700,"renderers":[{"id":"1303","type":"CategoricalAxis"},{"id":"1306","type":"Grid"},{"id":"1307","type":"LinearAxis"},{"id":"1311","type":"Grid"},{"id":"1320","type":"BoxAnnotation"},{"id":"1331","type":"GlyphRenderer"}],"title":{"id":"1347","type":"Title"},"toolbar":{"id":"1318","type":"Toolbar"},"toolbar_location":null,"x_range":{"id":"1295","type":"FactorRange"},"x_scale":{"id":"1299","type":"CategoricalScale"},"y_range":{"id":"1297","type":"Range1d"},"y_scale":{"id":"1301","type":"LinearScale"}},"id":"1294","subtype":"Figure","type":"Plot"},{"attributes":{"children":[{"id":"1343","type":"Row"},{"id":"1344","type":"Row"}]},"id":"1345","type":"Column"},{"attributes":{"children":[{"id":"1338","type":"Select"}],"width":100},"id":"1342","type":"WidgetBox"},{"attributes":{"dimension":1,"grid_line_alpha":{"value":0.5},"grid_line_dash":[6,4],"plot":{"id":"1294","subtype":"Figure","type":"Plot"},"ticker":{"id":"1308","type":"BasicTicker"}},"id":"1311","type":"Grid"},{"attributes":{},"id":"1316","type":"ResetTool"},{"attributes":{"text":"\n Risky Orders in ","width":140},"id":"1336","type":"PreText"},{"attributes":{},"id":"1315","type":"SaveTool"},{"attributes":{},"id":"1312","type":"PanTool"},{"attributes":{"overlay":{"id":"1320","type":"BoxAnnotation"}},"id":"1314","type":"BoxZoomTool"},{"attributes":{},"id":"1299","type":"CategoricalScale"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"1312","type":"PanTool"},{"id":"1313","type":"WheelZoomTool"},{"id":"1314","type":"BoxZoomTool"},{"id":"1315","type":"SaveTool"},{"id":"1316","type":"ResetTool"},{"id":"1317","type":"HelpTool"},{"id":"1333","type":"HoverTool"}]},"id":"1318","type":"Toolbar"},{"attributes":{"plot":null,"text":""},"id":"1347","type":"Title"},{"attributes":{},"id":"1313","type":"WheelZoomTool"},{"attributes":{"callback":null,"data":{"cargo_price":{"__ndarray__":"j8L1KBxbsUA9Ctej8Gq0QGZmZmbmYaNArkfhelTuxEBI4XoULkO8QPYoXI+C5MhA7FG4HoX7mECamZmZmSqWQIXrUbjey7JAexSuR0HGzEA=","dtype":"float64","shape":[10]},"cargo_price_unit":{"__ndarray__":"SOF6FK5H6T9xPQrXo3DlP3sUrkfheuQ/MzMzMzMz4z9xPQrXo3DlP5qZmZmZmek/H4XrUbge5T8pXI/C9SjcP8P1KFyPwtU/rkfhehSu5z8=","dtype":"float64","shape":[10]},"deliver_date":["2019-03-24 23:52:24","2019-03-27 02:22:57","2019-03-24 19:05:05","2019-03-23 15:21:18","2019-03-25 19:08:22","2019-03-24 17:46:58","2019-03-26 15:53:16","2019-03-23 03:41:48","2019-03-23 07:28:06","2019-03-25 08:54:58"],"desti":["FCO","AMS","BKK","AMS","ORD","AMS","ORD","AMS","FRA","FRA"],"distance":{"__ndarray__":"AAAAAADHskAAAAAAAAqwQAAAAAAACLVAAAAAAAAKsEAAAAAAAAqwQAAAAAAACrBAAAAAAAAKsEAAAAAAAHCVQAAAAAAA6LBAAAAAAADosEA=","dtype":"float64","shape":[10]},"from_to":["ORD - FCO","ORD - AMS","OSL - BKK","ORD - AMS","AMS - ORD","ORD - AMS","AMS - ORD","IST - AMS","ORD - FRA","ORD - FRA"],"i1_dep_1_place":["ORD","ORD","OSL","ORD","AMS","ORD","AMS","IST","ORD","ORD"],"i1_dep_2_place":["FRA","LHR","AMS","?","?","?","?","LHR","?","?"],"i1_dep_3_place":["?","?","?","?","?","?","?","?","?","?"],"i1_hops":[2,2,2,1,1,1,1,2,1,1],"i1_legid":["897","5729","13867","1184","7020","645","8539","1078","936","147"],"i1_rcf_1_e":[853,754,2967,858,1050,841,1047,928,894,844],"i1_rcf_1_p":[985,915,3030,890,1332,890,1307,995,985,985],"i1_rcf_1_place":["FRA","LHR","AMS","AMS","ORD","AMS","ORD","LHR","FRA","FRA"],"i1_rcf_2_e":[191,659,773,0,0,0,0,641,0,0],"i1_rcf_2_p":[290,810,1329,0,0,0,0,810,0,0],"i1_rcf_2_place":["FCO","AMS","BKK","?","?","?","?","AMS","?","?"],"i1_rcf_3_e":[0,0,0,0,0,0,0,0,0,0],"i1_rcf_3_p":[0,0,0,0,0,0,0,0,0,0],"i1_rcf_3_place":["?","?","?","?","?","?","?","?","?","?"],"lead_time":[1044,1413,3740,858,1050,841,1047,1569,894,844],"order_date":{"__ndarray__":"AAC0LOaadkIAgEB4fpt2QgCAxnc7mnZCAAC/LIGadkIAAOv5J5t2QgAAT+HcmnZCAAC0YW+bdkIAACB3MJp2QgAAwwlkmnZCAAAlqhCbdkI=","dtype":"float64","shape":[10]},"origin":["ORD","ORD","OSL","ORD","AMS","ORD","AMS","IST","ORD","ORD"],"planned_date":["2019-03-25 03:43:24","2019-03-27 07:34:57","2019-03-25 05:24:05","2019-03-23 15:53:18","2019-03-25 23:50:22","2019-03-24 18:35:58","2019-03-26 20:13:16","2019-03-23 07:37:48","2019-03-23 08:59:06","2019-03-25 11:15:58"],"risk_1":{"__ndarray__":"AAAAAAAAGEAAAAAAAAAUQAAAAAAAABBAAAAAAAAAHEAAAAAAAAAcQAAAAAAAABxAAAAAAAAAHEAAAAAAAAAEQAAAAAAAABhAAAAAAAAAGEA=","dtype":"float64","shape":[10]},"risk_2":{"__ndarray__":"AAAAAAAADEAAAAAAAAAQQAAAAAAAABBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQQAAAAAAAAAAAAAAAAAAAAAA=","dtype":"float64","shape":[10]},"risk_3":{"__ndarray__":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=","dtype":"float64","shape":[10]},"risk_all":{"__ndarray__":"AAAAAAAAI0AAAAAAAAAiQAAAAAAAACBAAAAAAAAAHEAAAAAAAAAcQAAAAAAAABxAAAAAAAAAHEAAAAAAAAAaQAAAAAAAABhAAAAAAAAAGEA=","dtype":"float64","shape":[10]},"value":[47976,58732,79424,87912,89977,21207,63645,1552,15463,53294],"weight":{"__ndarray__":"uB6F61G48j9mZmZmZmb+PwrXo3A9Cuc/ZmZmZmZmEUAK16NwPQoFQArXo3A9Cg9A4XoUrkfh4j/NzMzMzMwCQClcj8L1KApAZmZmZmZmEkA=","dtype":"float64","shape":[10]}},"selected":{"id":"1354","type":"Selection"},"selection_policy":{"id":"1353","type":"UnionRenderers"}},"id":"1293","type":"ColumnDataSource"},{"attributes":{},"id":"1349","type":"CategoricalTickFormatter"},{"attributes":{},"id":"1351","type":"BasicTickFormatter"},{"attributes":{"fill_color":{"value":"#016DC2"},"line_color":{"value":"#1f77b4"},"top":{"field":"risk_all"},"width":{"value":0.75},"x":{"field":"i1_legid"}},"id":"1330","type":"VBar"},{"attributes":{},"id":"1353","type":"UnionRenderers"}],"root_ids":["1345"]},"title":"Bokeh Application","version":"1.0.4"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('1418').textContent;
+                  var render_items = [{"docid":"1414b248-0dca-43d4-b77f-7f7949d952f2","roots":{"1345":"17d577f8-b4af-492a-89d2-40f3dab4bfb8"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        embed_document(root);
+                        clearInterval(timer);
+                      }
+                      attempts++;
+                      if (attempts > 100) {
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        clearInterval(timer);
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
