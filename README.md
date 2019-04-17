@@ -7,6 +7,6 @@ This is my bokeh practices using Cargo 2000 dataset downloaded from kaggle https
 
 2. Since the dataset is sanitized and the depart/arrival airports are replaced with three-digit numbers, I manually mapped 29 most frequent airports (three-digit numbers) to real airports (airport codes). Note that the real airports are inferred from the flight time durations, distances between airports, and the geographical relations of airports. It's very likely the airports are not right as in the unsanitized data. But I just need a dataset to visualize logistic data so it doesn't matter.
 
-3. I added risk of flight leg based on the number of runways that the airports have. The airport dataset I used is from https://github.com/krlawrence/graph/tree/master/sample-data
+3. I added risk of flight leg based on the number of runways that the airports have. I assumed the more runways an airport has, the more likely it has airport congestion, which results in delay. The airport dataset I used is from https://github.com/krlawrence/graph/tree/master/sample-data
 
 4. I added random values, weights, cargo_price_units, order_dates of the shippments. Other attributes such as cargo_price, risk_all, planned_date, deliver_date are generated from the above data wrangling.
